@@ -1,9 +1,9 @@
 ---
  - hosts: linuxhost
    vars:
-           motd_ubuntu: "Welcome Mr.Paresh, You have logged in to ubuntu machine"
-           motd_RHEL: "Welcome Mr.Paresh, You have logged in to RedHat Linux"
-           motd_CentOS: "Welcome Mr.Paresh, You have logged in to RedHat CentOS"
+           motd_ubuntu: "Welcome Ms. Nikita, You have logged in to ubuntu machine"
+           motd_RHEL: "Welcome Ms. Nikita, You have logged in to RedHat Linux"
+           motd_CentOS: "Welcome Ms. Nikita, You have logged in to RedHat CentOS"
    tasks:
            - name: configuring motd for ubuntu
              copy:
