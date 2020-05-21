@@ -1,0 +1,12 @@
+---
+- hosts: localhost
+  connection: local
+  gather_facts: false
+  vars:
+    region: 'us-east-1'
+  tasks:
+    - name: change instance state by tag
+      ec2:
+              state: stoppped
+              instance_tags:
+                      Name: Demo3
