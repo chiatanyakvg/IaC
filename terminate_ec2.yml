@@ -11,3 +11,6 @@
         wait: true
         instance_ids: [ 'i-0114714b64fb02efb' ]
         state: 'absent'
+        
+ #instance_id:
+ #  - "{{ ec2_facts.instances[0].instance_id }}"
