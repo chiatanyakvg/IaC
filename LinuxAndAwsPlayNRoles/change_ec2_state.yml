@@ -8,5 +8,6 @@
     - name: change instance state by tag
       ec2:
               state: stoppped
+              region: "{{ region }}"
               instance_tags:
                       Name: Demo3
