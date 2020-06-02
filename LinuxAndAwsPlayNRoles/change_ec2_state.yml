@@ -7,7 +7,7 @@
   tasks:
     - name: change instance state by tag
       ec2:
-              state: stoppped
+              state: stopped
               region: "{{ region }}"
               instance_tags:
                       Name: Demo3
