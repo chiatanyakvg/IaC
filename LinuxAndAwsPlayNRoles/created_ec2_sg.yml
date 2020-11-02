@@ -7,11 +7,10 @@
 
     vars:
       instance_type: t2.micro
-      security_group: demo-sg-ansible
-      image: ami-0915e09cc7ceee3ab
+      security_group: web-sg
+      image: ami-0947d2ba12ee1ff75
       region: us-east-1
-      keypair: ansible_key
-      count: 1
+      keypair: aws_key
 
     tasks:
 
